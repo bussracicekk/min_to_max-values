@@ -1,0 +1,3 @@
+CREATE OR REPLACE FUNCTION min_to_max(point) RETURNS int
+AS '$libdir/min_to_max'
+LANGUAGE C IMMUTABLE STRICT;
